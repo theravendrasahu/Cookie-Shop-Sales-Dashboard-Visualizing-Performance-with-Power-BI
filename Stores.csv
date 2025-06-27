@@ -1,0 +1,12 @@
+Store ID,State or Province,City,Postal Code,Latitude,Longitude,Store Name,Country
+1,NY,New York,10001,40.7505,-73.9971,New York,USA
+2,IL,Chicago,60601,41.8837,-87.6289,Chicago,USA
+3,CA,Los Angeles,90013,34.0443,-118.2429,Los Angeles,USA
+4,TX,Houston,77002,29.7545,-95.3705,Houston,USA
+5,WA,Seattle,98101,47.608,-122.3352,Seattle,USA
+6,FL,Miami,33131,25.767,-80.189,Miami,USA
+7,MA,Boston,2108,42.3579,-71.0637,Boston,USA
+8,CO,Denver,80202,39.7527,-104.9994,Denver,USA
+9,GA,Atlanta,30303,33.7537,-84.3884,Atlanta,USA
+10,CA,San Francisco,94103,37.7749,-122.4194,San Francisco,USA
+11,Île-de-France,Paris,75001,48.8566,2.3522,Paris,France

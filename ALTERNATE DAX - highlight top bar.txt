@@ -1,0 +1,25 @@
+ALTERNATE - Top Category Color = 
+
+//If you are planning on using "publish to the web" to create a portfolio, use this technique to highlight the top bar color instead - it uses DAX instead of visual calculations, which currently do not load in public sharing links. This measure is used as the conditional formatting rule for the bar color in the bar chart.
+
+VAR SelectedDimension = MAX('(Param) Dimension'[(Param) Dimension])
+VAR TopDimensionValue = 
+    SWITCH(
+        SelectedDimension,
+        "Store", MAXX(TOPN(1, ALL(Stores[Store Name]), [Sales]), Stores[Store Name]),
+        "Category", MAXX(TOPN(1, ALL('Product'[Category]), [Sales]), 'Product'[Category]),
+        "Flavor", MAXX(TOPN(1, ALL('Product'[Flavor]), [Sales]), 'Product'[Flavor]),
+        "Salesperson", MAXX(TOPN(1, ALL(Employees[Full Name]), [Sales]), Employees[Full Name]),
+        BLANK()
+    )
+VAR CurrentDimensionValue = 
+    SWITCH(
+        SelectedDimension,
+        "Store", MAX(Stores[Store Name]),
+        "Category", MAX('Product'[Category]),
+        "Flavor", MAX('Product'[Flavor]),
+        "Salesperson", MAX(Employees[Full Name]),
+        BLANK()
+    )
+RETURN
+    IF(CurrentDimensionValue = TopDimensionValue, "#00C385")

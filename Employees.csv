@@ -1,0 +1,400 @@
+Employee ID,First Name,Last Name,Sales ID,Email,Job Title,Department,Manager Employee ID,Start Date,Manager Full Name,Manager Email
+1,Walter,Henderson,9001,walter.henderson@grainandglory.com,CEO,Executive,,12/2/2023,,
+2,Victoria,Lopez,9002,victoria.lopez@grainandglory.com,Director of Human Resources,Human Resources,1.0,3/13/2023,Walter Henderson,walter.henderson@grainandglory.com
+3,Carlos,Torres,9003,carlos.torres@grainandglory.com,HR Generalist,Human Resources,2.0,9/15/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+4,Emily,Clark,9004,emily.clark@grainandglory.com,HR Generalist,Human Resources,2.0,1/22/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+5,Nathan,Bailey,9005,nathan.bailey@grainandglory.com,HR Coordinator,Human Resources,2.0,11/25/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+6,Diana,Ramirez,9006,diana.ramirez@grainandglory.com,Recruiter,Human Resources,2.0,5/23/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+7,George,Foster,9007,george.foster@grainandglory.com,HR Assistant,Human Resources,2.0,10/3/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+8,Olivia,Martin,9008,olivia.martin@grainandglory.com,Payroll Specialist,Human Resources,2.0,10/4/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+9,Lucas,Young,9009,lucas.young@grainandglory.com,HR Generalist,Human Resources,2.0,12/5/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+10,Amelia,Green,9010,amelia.green@grainandglory.com,Compensation Specialist,Human Resources,2.0,8/9/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+11,James,Wood,9011,james.wood@grainandglory.com,HR Generalist,Human Resources,2.0,5/27/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+12,Sophia,Bell,9012,sophia.bell@grainandglory.com,HR Assistant,Human Resources,2.0,7/1/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+13,Daniel,Mills,9013,daniel.mills@grainandglory.com,Recruiter,Human Resources,2.0,12/31/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+14,Mia,Jenkins,9014,mia.jenkins@grainandglory.com,HR Coordinator,Human Resources,2.0,7/13/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+15,Henry,Perry,9015,henry.perry@grainandglory.com,HR Specialist,Human Resources,2.0,3/4/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+16,Ava,Brooks,9016,ava.brooks@grainandglory.com,HR Specialist,Human Resources,2.0,5/19/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+17,Liam,Gordon,9017,liam.gordon@grainandglory.com,HR Generalist,Human Resources,2.0,10/12/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+18,Emma,Spencer,9018,emma.spencer@grainandglory.com,Payroll Specialist,Human Resources,2.0,2/27/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+19,Noah,Jones,9019,noah.jones@grainandglory.com,HR Assistant,Human Resources,2.0,6/3/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+20,Ethan,Cox,9020,ethan.cox@grainandglory.com,Recruiter,Human Resources,2.0,12/25/2023,Victoria Lopez,victoria.lopez@grainandglory.com
+21,Hailey,Turner,9021,hailey.turner@grainandglory.com,HR Coordinator,Human Resources,2.0,4/10/2024,Victoria Lopez,victoria.lopez@grainandglory.com
+22,Joseph,Lee,9022,joseph.lee@grainandglory.com,Director of Customer Support,Customer Support,1.0,6/3/2024,Walter Henderson,walter.henderson@grainandglory.com
+23,Anna,Watson,9023,anna.watson@grainandglory.com,Customer Support Rep,Customer Support,22.0,11/20/2024,Joseph Lee,joseph.lee@grainandglory.com
+24,Liam,Bennett,9024,liam.bennett@grainandglory.com,Customer Support Rep,Customer Support,22.0,2/27/2024,Joseph Lee,joseph.lee@grainandglory.com
+25,Grace,Ward,9025,grace.ward@grainandglory.com,Customer Support Rep,Customer Support,22.0,1/9/2023,Joseph Lee,joseph.lee@grainandglory.com
+26,David,West,9026,david.west@grainandglory.com,Customer Support Lead,Customer Support,22.0,11/3/2024,Joseph Lee,joseph.lee@grainandglory.com
+27,Lily,Gibson,9027,lily.gibson@grainandglory.com,Customer Support Rep,Customer Support,22.0,5/22/2023,Joseph Lee,joseph.lee@grainandglory.com
+28,Jacob,Rogers,9028,jacob.rogers@grainandglory.com,Customer Support Rep,Customer Support,22.0,5/2/2024,Joseph Lee,joseph.lee@grainandglory.com
+29,Evelyn,Long,9029,evelyn.long@grainandglory.com,Customer Support Rep,Customer Support,22.0,1/19/2024,Joseph Lee,joseph.lee@grainandglory.com
+30,Matthew,Hunter,9030,matthew.hunter@grainandglory.com,Customer Support Rep,Customer Support,22.0,9/20/2024,Joseph Lee,joseph.lee@grainandglory.com
+31,Harper,Hunt,9031,harper.hunt@grainandglory.com,Customer Support Rep,Customer Support,22.0,3/13/2024,Joseph Lee,joseph.lee@grainandglory.com
+32,Joshua,Harvey,9032,joshua.harvey@grainandglory.com,Customer Support Lead,Customer Support,22.0,9/27/2024,Joseph Lee,joseph.lee@grainandglory.com
+33,Scarlett,Campbell,9033,scarlett.campbell@grainandglory.com,Customer Support Rep,Customer Support,22.0,4/15/2024,Joseph Lee,joseph.lee@grainandglory.com
+34,Benjamin,Wilson,9034,benjamin.wilson@grainandglory.com,Customer Support Rep,Customer Support,22.0,4/21/2023,Joseph Lee,joseph.lee@grainandglory.com
+35,Sarah,Mccoy,9035,sarah.mccoy@grainandglory.com,Customer Support Rep,Customer Support,22.0,2/24/2023,Joseph Lee,joseph.lee@grainandglory.com
+36,Owen,Wells,9036,owen.wells@grainandglory.com,Customer Support Rep,Customer Support,22.0,3/27/2024,Joseph Lee,joseph.lee@grainandglory.com
+37,Madison,Mcdonald,9037,madison.mcdonald@grainandglory.com,Customer Support Lead,Customer Support,22.0,12/10/2024,Joseph Lee,joseph.lee@grainandglory.com
+38,Caleb,Stone,9038,caleb.stone@grainandglory.com,Customer Support Rep,Customer Support,22.0,4/23/2024,Joseph Lee,joseph.lee@grainandglory.com
+39,Elizabeth,Barker,9039,elizabeth.barker@grainandglory.com,Customer Support Rep,Customer Support,22.0,4/13/2024,Joseph Lee,joseph.lee@grainandglory.com
+40,Zachary,Kennedy,9040,zachary.kennedy@grainandglory.com,Customer Support Rep,Customer Support,22.0,1/18/2024,Joseph Lee,joseph.lee@grainandglory.com
+41,Nora,Craig,9041,nora.craig@grainandglory.com,Customer Support Rep,Customer Support,22.0,3/20/2023,Joseph Lee,joseph.lee@grainandglory.com
+42,Logan,Arnold,9042,logan.arnold@grainandglory.com,Customer Support Rep,Customer Support,22.0,5/22/2023,Joseph Lee,joseph.lee@grainandglory.com
+43,Layla,Phillips,9043,layla.phillips@grainandglory.com,Customer Support Rep,Customer Support,22.0,11/17/2024,Joseph Lee,joseph.lee@grainandglory.com
+44,Levi,Franklin,9044,levi.franklin@grainandglory.com,Customer Support Rep,Customer Support,22.0,8/17/2023,Joseph Lee,joseph.lee@grainandglory.com
+45,Zoey,Pearson,9045,zoey.pearson@grainandglory.com,Customer Support Rep,Customer Support,22.0,3/11/2024,Joseph Lee,joseph.lee@grainandglory.com
+46,Isaac,Hansen,9046,isaac.hansen@grainandglory.com,Customer Support Rep,Customer Support,22.0,3/7/2024,Joseph Lee,joseph.lee@grainandglory.com
+47,Ella,Maxwell,9047,ella.maxwell@grainandglory.com,Customer Support Rep,Customer Support,22.0,1/17/2023,Joseph Lee,joseph.lee@grainandglory.com
+48,Carter,Richards,9048,carter.richards@grainandglory.com,Customer Support Lead,Customer Support,22.0,7/21/2024,Joseph Lee,joseph.lee@grainandglory.com
+49,Aubrey,James,9049,aubrey.james@grainandglory.com,Customer Support Rep,Customer Support,22.0,1/4/2023,Joseph Lee,joseph.lee@grainandglory.com
+50,Aaron,Robertson,9050,aaron.robertson@grainandglory.com,Customer Support Rep,Customer Support,22.0,6/12/2023,Joseph Lee,joseph.lee@grainandglory.com
+51,Avery,Garrett,9051,avery.garrett@grainandglory.com,Customer Support Rep,Customer Support,22.0,10/14/2023,Joseph Lee,joseph.lee@grainandglory.com
+52,Ryan,Cortez,9052,ryan.cortez@grainandglory.com,Customer Support Rep,Customer Support,22.0,9/23/2023,Joseph Lee,joseph.lee@grainandglory.com
+53,Penelope,Sutton,9053,penelope.sutton@grainandglory.com,Customer Support Rep,Customer Support,22.0,10/31/2024,Joseph Lee,joseph.lee@grainandglory.com
+54,Thomas,Underwood,9054,thomas.underwood@grainandglory.com,Customer Support Rep,Customer Support,22.0,5/30/2023,Joseph Lee,joseph.lee@grainandglory.com
+55,Sofia,Hardy,9055,sofia.hardy@grainandglory.com,Customer Support Lead,Customer Support,22.0,1/28/2023,Joseph Lee,joseph.lee@grainandglory.com
+56,Dylan,Riley,9056,dylan.riley@grainandglory.com,Customer Support Rep,Customer Support,22.0,11/28/2024,Joseph Lee,joseph.lee@grainandglory.com
+57,Addison,Bishop,9057,addison.bishop@grainandglory.com,Customer Support Rep,Customer Support,22.0,5/29/2024,Joseph Lee,joseph.lee@grainandglory.com
+58,Nolan,Ward,9058,nolan.ward@grainandglory.com,Customer Support Rep,Customer Support,22.0,9/9/2024,Joseph Lee,joseph.lee@grainandglory.com
+59,Claire,Newton,9059,claire.newton@grainandglory.com,Customer Support Rep,Customer Support,22.0,3/15/2023,Joseph Lee,joseph.lee@grainandglory.com
+60,Isaiah,Stephens,9060,isaiah.stephens@grainandglory.com,Customer Support Rep,Customer Support,22.0,2/10/2023,Joseph Lee,joseph.lee@grainandglory.com
+61,Ellie,Hammond,9061,ellie.hammond@grainandglory.com,Customer Support Rep,Customer Support,22.0,10/25/2023,Joseph Lee,joseph.lee@grainandglory.com
+62,Patricia,Smith,9062,patricia.smith@grainandglory.com,Director of Information Technology,Information Technology,1.0,10/6/2024,Walter Henderson,walter.henderson@grainandglory.com
+63,Luke,Evans,9063,luke.evans@grainandglory.com,IT Support Technician,Information Technology,62.0,2/1/2023,Patricia Smith,patricia.smith@grainandglory.com
+64,Rachel,Thomas,9064,rachel.thomas@grainandglory.com,IT Support Technician,Information Technology,62.0,1/14/2023,Patricia Smith,patricia.smith@grainandglory.com
+65,Anthony,Johnson,9065,anthony.johnson@grainandglory.com,System Administrator,Information Technology,62.0,3/11/2024,Patricia Smith,patricia.smith@grainandglory.com
+66,Steven,Gray,9066,steven.gray@grainandglory.com,Network Engineer,Information Technology,62.0,8/21/2023,Patricia Smith,patricia.smith@grainandglory.com
+67,Megan,Woods,9067,megan.woods@grainandglory.com,IT Support Technician,Information Technology,62.0,9/19/2024,Patricia Smith,patricia.smith@grainandglory.com
+68,Evan,Morris,9068,evan.morris@grainandglory.com,Software Developer,Information Technology,62.0,9/5/2024,Patricia Smith,patricia.smith@grainandglory.com
+69,Clara,Richardson,9069,clara.richardson@grainandglory.com,IT Support Technician,Information Technology,62.0,9/7/2023,Patricia Smith,patricia.smith@grainandglory.com
+70,Tyler,Reid,9070,tyler.reid@grainandglory.com,System Administrator,Information Technology,62.0,10/18/2023,Patricia Smith,patricia.smith@grainandglory.com
+71,Hannah,Owens,9071,hannah.owens@grainandglory.com,Network Engineer,Information Technology,62.0,3/8/2023,Patricia Smith,patricia.smith@grainandglory.com
+72,Sean,Bennett,9072,sean.bennett@grainandglory.com,IT Support Technician,Information Technology,62.0,3/26/2024,Patricia Smith,patricia.smith@grainandglory.com
+73,Sydney,Fox,9073,sydney.fox@grainandglory.com,Business Analyst,Information Technology,62.0,3/10/2024,Patricia Smith,patricia.smith@grainandglory.com
+74,Mark,Silva,9074,mark.silva@grainandglory.com,IT Support Technician,Information Technology,62.0,4/10/2023,Patricia Smith,patricia.smith@grainandglory.com
+75,Felix,Moore,9075,felix.moore@grainandglory.com,Software Developer,Information Technology,62.0,5/10/2023,Patricia Smith,patricia.smith@grainandglory.com
+76,Chloe,Ryan,9076,chloe.ryan@grainandglory.com,IT Support Technician,Information Technology,62.0,3/9/2024,Patricia Smith,patricia.smith@grainandglory.com
+77,Kyle,Miller,9077,kyle.miller@grainandglory.com,System Administrator,Information Technology,62.0,6/29/2024,Patricia Smith,patricia.smith@grainandglory.com
+78,Melissa,Cook,9078,melissa.cook@grainandglory.com,IT Support Technician,Information Technology,62.0,8/10/2024,Patricia Smith,patricia.smith@grainandglory.com
+79,Brandon,Butler,9079,brandon.butler@grainandglory.com,Network Engineer,Information Technology,62.0,3/7/2023,Patricia Smith,patricia.smith@grainandglory.com
+80,Keira,Ward,9080,keira.ward@grainandglory.com,IT Support Technician,Information Technology,62.0,11/12/2024,Patricia Smith,patricia.smith@grainandglory.com
+81,Cameron,Cole,9081,cameron.cole@grainandglory.com,Software Developer,Information Technology,62.0,5/25/2024,Patricia Smith,patricia.smith@grainandglory.com
+82,Brittany,Jones,9082,brittany.jones@grainandglory.com,IT Support Technician,Information Technology,62.0,5/3/2023,Patricia Smith,patricia.smith@grainandglory.com
+83,Sebastian,Myers,9083,sebastian.myers@grainandglory.com,System Administrator,Information Technology,62.0,4/14/2024,Patricia Smith,patricia.smith@grainandglory.com
+84,Hailey,Foster,9084,hailey.foster@grainandglory.com,IT Support Technician,Information Technology,62.0,3/7/2023,Patricia Smith,patricia.smith@grainandglory.com
+85,Zachary,Grant,9085,zachary.grant@grainandglory.com,Network Engineer,Information Technology,62.0,2/1/2024,Patricia Smith,patricia.smith@grainandglory.com
+86,Wyatt,Pearson,9086,wyatt.pearson@grainandglory.com,Business Analyst,Information Technology,62.0,12/2/2024,Patricia Smith,patricia.smith@grainandglory.com
+87,Violet,Holmes,9087,violet.holmes@grainandglory.com,IT Support Technician,Information Technology,62.0,5/28/2024,Patricia Smith,patricia.smith@grainandglory.com
+88,Morgan,Powell,9088,morgan.powell@grainandglory.com,Software Developer,Information Technology,62.0,7/11/2024,Patricia Smith,patricia.smith@grainandglory.com
+89,Taylor,Alvarez,9089,taylor.alvarez@grainandglory.com,IT Support Technician,Information Technology,62.0,10/27/2023,Patricia Smith,patricia.smith@grainandglory.com
+90,Danielle,Mendoza,9090,danielle.mendoza@grainandglory.com,System Administrator,Information Technology,62.0,1/25/2023,Patricia Smith,patricia.smith@grainandglory.com
+91,Jade,Robinson,9091,jade.robinson@grainandglory.com,IT Support Technician,Information Technology,62.0,12/13/2024,Patricia Smith,patricia.smith@grainandglory.com
+92,Kevin,Jones,9092,kevin.jones@grainandglory.com,Director of Sales,Sales,1.0,12/6/2023,Walter Henderson,walter.henderson@grainandglory.com
+93,Marissa,Evans,9093,marissa.evans@grainandglory.com,Sales Representative,Sales,92.0,1/19/2024,Kevin Jones,kevin.jones@grainandglory.com
+94,Austin,Baker,9094,austin.baker@grainandglory.com,Sales Representative,Sales,92.0,4/2/2024,Kevin Jones,kevin.jones@grainandglory.com
+95,Samantha,Mitchell,9095,samantha.mitchell@grainandglory.com,Sales Representative,Sales,92.0,8/20/2023,Kevin Jones,kevin.jones@grainandglory.com
+96,Diego,Gomez,9096,diego.gomez@grainandglory.com,Sales Representative,Sales,92.0,2/18/2024,Kevin Jones,kevin.jones@grainandglory.com
+97,Brooke,Wood,9097,brooke.wood@grainandglory.com,Sales Representative,Sales,92.0,11/16/2024,Kevin Jones,kevin.jones@grainandglory.com
+98,Isaac,Morgan,9173,isaac.morgan@grainandglory.com,Store Associate,Sales,173.0,6/25/2023,Olivia Scott,olivia.scott@grainandglory.com
+99,Savannah,Ward,9173,savannah.ward@grainandglory.com,Store Associate,Sales,173.0,8/27/2024,Olivia Scott,olivia.scott@grainandglory.com
+100,Tyler,Foster,9100,tyler.foster@grainandglory.com,Sales Representative,Sales,92.0,3/25/2023,Kevin Jones,kevin.jones@grainandglory.com
+101,London,Turner,9101,london.turner@grainandglory.com,Sales Coordinator,Sales,92.0,6/30/2023,Kevin Jones,kevin.jones@grainandglory.com
+102,Ellie,Carter,9102,ellie.carter@grainandglory.com,Sales Representative,Sales,92.0,2/26/2024,Kevin Jones,kevin.jones@grainandglory.com
+103,Blake,Lee,9103,blake.lee@grainandglory.com,Sales Representative,Sales,92.0,6/13/2024,Kevin Jones,kevin.jones@grainandglory.com
+104,Melanie,Perkins,9173,melanie.perkins@grainandglory.com,Cashier,Sales,173.0,11/18/2024,Olivia Scott,olivia.scott@grainandglory.com
+105,Phoenix,Graham,9105,phoenix.graham@grainandglory.com,Sales Representative,Sales,92.0,7/17/2023,Kevin Jones,kevin.jones@grainandglory.com
+106,Aiden,Webb,9173,aiden.webb@grainandglory.com,Store Associate,Sales,173.0,10/25/2024,Olivia Scott,olivia.scott@grainandglory.com
+107,Lilly,Jenkins,9107,lilly.jenkins@grainandglory.com,Sales Representative,Sales,92.0,2/14/2023,Kevin Jones,kevin.jones@grainandglory.com
+108,Gavin,Reed,9108,gavin.reed@grainandglory.com,Sales Representative,Sales,92.0,7/5/2023,Kevin Jones,kevin.jones@grainandglory.com
+109,Stella,Hayes,9109,stella.hayes@grainandglory.com,Sales Representative,Sales,92.0,7/14/2024,Kevin Jones,kevin.jones@grainandglory.com
+110,Carson,Barnes,9173,carson.barnes@grainandglory.com,Store Associate,Sales,173.0,2/17/2024,Olivia Scott,olivia.scott@grainandglory.com
+111,Hope,Frazier,9173,hope.frazier@grainandglory.com,Store Associate,Sales,173.0,1/28/2023,Olivia Scott,olivia.scott@grainandglory.com
+112,Logan,Mccarthy,9112,logan.mccarthy@grainandglory.com,Sales Representative,Sales,92.0,10/22/2024,Kevin Jones,kevin.jones@grainandglory.com
+113,Eliza,Anderson,9113,eliza.anderson@grainandglory.com,Sales Representative,Sales,92.0,12/23/2023,Kevin Jones,kevin.jones@grainandglory.com
+114,Ryder,Clark,9173,ryder.clark@grainandglory.com,Cashier,Sales,173.0,11/3/2023,Olivia Scott,olivia.scott@grainandglory.com
+115,Lydia,Morris,9115,lydia.morris@grainandglory.com,Sales Representative,Sales,92.0,1/31/2023,Kevin Jones,kevin.jones@grainandglory.com
+116,Leo,Berry,9116,leo.berry@grainandglory.com,Sales Coordinator,Sales,92.0,3/5/2023,Kevin Jones,kevin.jones@grainandglory.com
+117,Aria,Freeman,9117,aria.freeman@grainandglory.com,Sales Representative,Sales,92.0,6/3/2023,Kevin Jones,kevin.jones@grainandglory.com
+118,Bryson,Stephens,9173,bryson.stephens@grainandglory.com,Store Associate,Sales,173.0,11/1/2023,Olivia Scott,olivia.scott@grainandglory.com
+119,Adalyn,Franklin,9119,adalyn.franklin@grainandglory.com,Sales Representative,Sales,92.0,3/26/2023,Kevin Jones,kevin.jones@grainandglory.com
+120,Xavier,Curtis,9120,xavier.curtis@grainandglory.com,Sales Representative,Sales,92.0,5/24/2023,Kevin Jones,kevin.jones@grainandglory.com
+121,Abigail,Ellis,9173,abigail.ellis@grainandglory.com,Store Associate,Sales,173.0,8/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+122,Damon,Parks,9122,damon.parks@grainandglory.com,Sales Representative,Sales,92.0,3/10/2023,Kevin Jones,kevin.jones@grainandglory.com
+123,Lila,Ford,9123,lila.ford@grainandglory.com,Sales Representative,Sales,92.0,6/25/2024,Kevin Jones,kevin.jones@grainandglory.com
+124,Roman,Wagner,9173,roman.wagner@grainandglory.com,Store Associate,Sales,173.0,8/15/2023,Olivia Scott,olivia.scott@grainandglory.com
+125,Cora,Reyes,9125,cora.reyes@grainandglory.com,Sales Representative,Sales,92.0,6/21/2024,Kevin Jones,kevin.jones@grainandglory.com
+126,Ezra,Peters,9126,ezra.peters@grainandglory.com,Sales Coordinator,Sales,92.0,2/27/2023,Kevin Jones,kevin.jones@grainandglory.com
+127,Faith,Knight,9127,faith.knight@grainandglory.com,Sales Representative,Sales,92.0,4/13/2024,Kevin Jones,kevin.jones@grainandglory.com
+128,Max,Parker,9128,max.parker@grainandglory.com,Sales Representative,Sales,92.0,5/31/2024,Kevin Jones,kevin.jones@grainandglory.com
+129,Amelie,Larson,9173,amelie.larson@grainandglory.com,Cashier,Sales,173.0,2/3/2023,Olivia Scott,olivia.scott@grainandglory.com
+130,Titus,Moran,9130,titus.moran@grainandglory.com,Sales Representative,Sales,92.0,4/19/2023,Kevin Jones,kevin.jones@grainandglory.com
+131,Marley,Thomas,9131,marley.thomas@grainandglory.com,Sales Representative,Sales,92.0,7/29/2023,Kevin Jones,kevin.jones@grainandglory.com
+132,Felix,Ramos,9173,felix.ramos@grainandglory.com,Store Associate,Sales,173.0,10/29/2023,Olivia Scott,olivia.scott@grainandglory.com
+133,Harmony,Ray,9133,harmony.ray@grainandglory.com,Sales Representative,Sales,92.0,1/14/2024,Kevin Jones,kevin.jones@grainandglory.com
+134,Damian,Wheeler,9134,damian.wheeler@grainandglory.com,Sales Representative,Sales,92.0,10/29/2024,Kevin Jones,kevin.jones@grainandglory.com
+135,Lauren,Thornton,9173,lauren.thornton@grainandglory.com,Store Associate,Sales,173.0,1/17/2024,Olivia Scott,olivia.scott@grainandglory.com
+136,Weston,Rivera,9136,weston.rivera@grainandglory.com,Sales Representative,Sales,92.0,4/6/2024,Kevin Jones,kevin.jones@grainandglory.com
+137,Elaina,Collins,9137,elaina.collins@grainandglory.com,Sales Representative,Sales,92.0,11/12/2024,Kevin Jones,kevin.jones@grainandglory.com
+138,Simon,Griffin,9138,simon.griffin@grainandglory.com,Sales Coordinator,Sales,92.0,12/16/2023,Kevin Jones,kevin.jones@grainandglory.com
+139,Kendall,Fleming,9139,kendall.fleming@grainandglory.com,Sales Representative,Sales,92.0,7/7/2024,Kevin Jones,kevin.jones@grainandglory.com
+140,Micah,Gibbs,9173,micah.gibbs@grainandglory.com,Store Associate,Sales,173.0,3/18/2024,Olivia Scott,olivia.scott@grainandglory.com
+141,Rose,Miles,9141,rose.miles@grainandglory.com,Sales Representative,Sales,92.0,10/30/2023,Kevin Jones,kevin.jones@grainandglory.com
+142,Eric,Garcia,9142,eric.garcia@grainandglory.com,Sales Representative,Sales,92.0,9/27/2024,Kevin Jones,kevin.jones@grainandglory.com
+143,Alaina,Stone,9173,alaina.stone@grainandglory.com,Store Associate,Sales,173.0,11/25/2023,Olivia Scott,olivia.scott@grainandglory.com
+144,Jason,Bell,9144,jason.bell@grainandglory.com,Sales Representative,Sales,92.0,5/22/2024,Kevin Jones,kevin.jones@grainandglory.com
+145,Willow,Jefferson,9145,willow.jefferson@grainandglory.com,Sales Representative,Sales,92.0,12/23/2024,Kevin Jones,kevin.jones@grainandglory.com
+146,Wyatt,Lynch,9173,wyatt.lynch@grainandglory.com,Store Associate,Sales,173.0,6/4/2023,Olivia Scott,olivia.scott@grainandglory.com
+147,Serena,Brock,9147,serena.brock@grainandglory.com,Sales Representative,Sales,92.0,1/26/2023,Kevin Jones,kevin.jones@grainandglory.com
+148,Maddox,Russell,9148,maddox.russell@grainandglory.com,Sales Coordinator,Sales,92.0,11/26/2024,Kevin Jones,kevin.jones@grainandglory.com
+149,Sadie,Pope,9149,sadie.pope@grainandglory.com,Sales Representative,Sales,92.0,5/25/2023,Kevin Jones,kevin.jones@grainandglory.com
+150,Cole,Fitzgerald,9150,cole.fitzgerald@grainandglory.com,Sales Representative,Sales,92.0,11/26/2023,Kevin Jones,kevin.jones@grainandglory.com
+151,Edith,Gordon,9173,edith.gordon@grainandglory.com,Cashier,Sales,173.0,11/1/2024,Olivia Scott,olivia.scott@grainandglory.com
+152,Brady,Hill,9152,brady.hill@grainandglory.com,Sales Representative,Sales,92.0,11/18/2024,Kevin Jones,kevin.jones@grainandglory.com
+153,Lucy,Cobb,9153,lucy.cobb@grainandglory.com,Sales Representative,Sales,92.0,4/10/2023,Kevin Jones,kevin.jones@grainandglory.com
+154,River,Harrington,9173,river.harrington@grainandglory.com,Store Associate,Sales,173.0,8/12/2024,Olivia Scott,olivia.scott@grainandglory.com
+155,Celeste,Whitaker,9155,celeste.whitaker@grainandglory.com,Sales Representative,Sales,92.0,11/24/2024,Kevin Jones,kevin.jones@grainandglory.com
+156,Ben,Stephenson,9156,ben.stephenson@grainandglory.com,Sales Representative,Sales,92.0,10/18/2024,Kevin Jones,kevin.jones@grainandglory.com
+157,Daisy,Juarez,9173,daisy.juarez@grainandglory.com,Store Associate,Sales,173.0,12/11/2024,Olivia Scott,olivia.scott@grainandglory.com
+158,Landon,Andrews,9158,landon.andrews@grainandglory.com,Sales Representative,Sales,92.0,1/23/2023,Kevin Jones,kevin.jones@grainandglory.com
+159,Alexis,Sanders,9159,alexis.sanders@grainandglory.com,Sales Representative,Sales,92.0,11/11/2023,Kevin Jones,kevin.jones@grainandglory.com
+160,Miles,Flores,9173,miles.flores@grainandglory.com,Store Associate,Sales,173.0,2/12/2024,Olivia Scott,olivia.scott@grainandglory.com
+161,Sadie,Miller,9161,sadie.miller@grainandglory.com,Sales Coordinator,Sales,92.0,4/30/2024,Kevin Jones,kevin.jones@grainandglory.com
+162,Eric,Hansen,9162,eric.hansen@grainandglory.com,Sales Representative,Sales,92.0,7/10/2023,Kevin Jones,kevin.jones@grainandglory.com
+163,Emerson,Clarke,9163,emerson.clarke@grainandglory.com,Sales Representative,Sales,92.0,1/13/2023,Kevin Jones,kevin.jones@grainandglory.com
+164,Frankie,Roman,9173,frankie.roman@grainandglory.com,Cashier,Sales,173.0,7/11/2024,Olivia Scott,olivia.scott@grainandglory.com
+165,Dillon,Santos,9165,dillon.santos@grainandglory.com,Sales Representative,Sales,92.0,11/6/2024,Kevin Jones,kevin.jones@grainandglory.com
+166,Elliana,Wong,9166,elliana.wong@grainandglory.com,Sales Representative,Sales,92.0,6/9/2023,Kevin Jones,kevin.jones@grainandglory.com
+167,Raphael,Snyder,9173,raphael.snyder@grainandglory.com,Store Associate,Sales,173.0,5/7/2023,Olivia Scott,olivia.scott@grainandglory.com
+168,Jane,Aguilar,9168,jane.aguilar@grainandglory.com,Sales Representative,Sales,92.0,5/30/2023,Kevin Jones,kevin.jones@grainandglory.com
+169,Conner,Wood,9169,conner.wood@grainandglory.com,Sales Representative,Sales,92.0,4/28/2023,Kevin Jones,kevin.jones@grainandglory.com
+170,Caitlin,Lawson,9173,caitlin.lawson@grainandglory.com,Store Associate,Sales,173.0,10/13/2024,Olivia Scott,olivia.scott@grainandglory.com
+171,Marco,Underwood,9171,marco.underwood@grainandglory.com,Sales Representative,Sales,92.0,10/14/2023,Kevin Jones,kevin.jones@grainandglory.com
+172,Andrew,Martinez,9172,andrew.martinez@grainandglory.com,Director of Storefront,Storefront,1.0,5/29/2024,Walter Henderson,walter.henderson@grainandglory.com
+173,Olivia,Scott,9173,olivia.scott@grainandglory.com,Store Manager,Storefront,172.0,2/19/2023,Andrew Martinez,andrew.martinez@grainandglory.com
+174,Liam,Bailey,9174,liam.bailey@grainandglory.com,Store Manager,Storefront,172.0,10/5/2024,Andrew Martinez,andrew.martinez@grainandglory.com
+175,Emma,Davis,9175,emma.davis@grainandglory.com,Store Manager,Storefront,172.0,10/13/2023,Andrew Martinez,andrew.martinez@grainandglory.com
+176,Noah,Edwards,9176,noah.edwards@grainandglory.com,Store Manager,Storefront,172.0,11/12/2023,Andrew Martinez,andrew.martinez@grainandglory.com
+177,Ava,Hughes,9177,ava.hughes@grainandglory.com,Store Manager,Storefront,172.0,4/6/2024,Andrew Martinez,andrew.martinez@grainandglory.com
+178,William,Ward,9178,william.ward@grainandglory.com,Store Manager,Storefront,172.0,3/26/2024,Andrew Martinez,andrew.martinez@grainandglory.com
+179,Amelia,Fox,9179,amelia.fox@grainandglory.com,Store Manager,Storefront,172.0,10/15/2024,Andrew Martinez,andrew.martinez@grainandglory.com
+180,Mason,Simmons,9180,mason.simmons@grainandglory.com,Store Manager,Storefront,172.0,10/17/2024,Andrew Martinez,andrew.martinez@grainandglory.com
+181,Ella,Rodriguez,9181,ella.rodriguez@grainandglory.com,Store Manager,Storefront,172.0,11/23/2023,Andrew Martinez,andrew.martinez@grainandglory.com
+182,Jacob,Porter,9182,jacob.porter@grainandglory.com,Store Manager,Storefront,172.0,1/2/2024,Andrew Martinez,andrew.martinez@grainandglory.com
+183,Harper,Garza,9183,harper.garza@grainandglory.com,Store Manager,Storefront,172.0,9/19/2023,Andrew Martinez,andrew.martinez@grainandglory.com
+185,Bryson,Bailey,9185,bryson.bailey@grainandglory.com,Baker,Storefront,173.0,12/13/2023,Olivia Scott,olivia.scott@grainandglory.com
+186,Scarlett,Barker,9173,scarlett.barker@grainandglory.com,Store Associate,Storefront,173.0,3/22/2024,Olivia Scott,olivia.scott@grainandglory.com
+187,Henry,Owens,9187,henry.owens@grainandglory.com,Pastry Chef,Storefront,174.0,4/27/2023,Liam Bailey,liam.bailey@grainandglory.com
+188,Aria,Fisher,9188,aria.fisher@grainandglory.com,Barista,Storefront,174.0,11/2/2024,Liam Bailey,liam.bailey@grainandglory.com
+189,Dylan,Pierce,9189,dylan.pierce@grainandglory.com,Shift Supervisor,Storefront,175.0,5/28/2024,Emma Davis,emma.davis@grainandglory.com
+190,Zoey,Lane,9173,zoey.lane@grainandglory.com,Store Associate,Storefront,173.0,6/30/2024,Olivia Scott,olivia.scott@grainandglory.com
+191,Isaiah,Hawkins,9191,isaiah.hawkins@grainandglory.com,Baker,Storefront,176.0,5/27/2023,Noah Edwards,noah.edwards@grainandglory.com
+192,Camila,Pearson,9173,camila.pearson@grainandglory.com,Cashier,Storefront,173.0,6/24/2024,Olivia Scott,olivia.scott@grainandglory.com
+193,Wyatt,Schmidt,9173,wyatt.schmidt@grainandglory.com,Store Associate,Storefront,173.0,2/2/2023,Olivia Scott,olivia.scott@grainandglory.com
+194,Elizabeth,James,9194,elizabeth.james@grainandglory.com,Barista,Storefront,177.0,1/13/2024,Ava Hughes,ava.hughes@grainandglory.com
+195,Owen,Clarke,9195,owen.clarke@grainandglory.com,Pastry Chef,Storefront,178.0,6/21/2024,William Ward,william.ward@grainandglory.com
+196,Grace,Elliott,9173,grace.elliott@grainandglory.com,Store Associate,Storefront,173.0,7/6/2024,Olivia Scott,olivia.scott@grainandglory.com
+197,Benjamin,Lopez,9173,benjamin.lopez@grainandglory.com,Cashier,Storefront,173.0,8/26/2023,Olivia Scott,olivia.scott@grainandglory.com
+198,Riley,Harper,9198,riley.harper@grainandglory.com,Baker,Storefront,179.0,12/9/2023,Amelia Fox,amelia.fox@grainandglory.com
+199,Aubrey,Brooks,9199,aubrey.brooks@grainandglory.com,Barista,Storefront,180.0,10/28/2024,Mason Simmons,mason.simmons@grainandglory.com
+200,Jack,Mack,9173,jack.mack@grainandglory.com,Store Associate,Storefront,173.0,5/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+201,Nora,Keller,9173,nora.keller@grainandglory.com,Cashier,Storefront,173.0,11/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+202,Simon,Estrada,9173,simon.estrada@grainandglory.com,Store Associate,Storefront,173.0,11/9/2023,Olivia Scott,olivia.scott@grainandglory.com
+203,Ayla,Wells,9203,ayla.wells@grainandglory.com,Baker,Storefront,174.0,6/20/2024,Liam Bailey,liam.bailey@grainandglory.com
+204,Damian,Mccoy,9204,damian.mccoy@grainandglory.com,Barista,Storefront,174.0,6/30/2024,Liam Bailey,liam.bailey@grainandglory.com
+205,Alexis,Baldwin,9173,alexis.baldwin@grainandglory.com,Store Associate,Storefront,173.0,6/29/2023,Olivia Scott,olivia.scott@grainandglory.com
+206,Jaxon,Murphy,9206,jaxon.murphy@grainandglory.com,Shift Supervisor,Storefront,175.0,11/15/2024,Emma Davis,emma.davis@grainandglory.com
+207,Naomi,Carson,9173,naomi.carson@grainandglory.com,Cashier,Storefront,173.0,3/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+208,Brody,Page,9208,brody.page@grainandglory.com,Baker,Storefront,176.0,5/18/2024,Noah Edwards,noah.edwards@grainandglory.com
+209,Clara,Webster,9209,clara.webster@grainandglory.com,Barista,Storefront,177.0,4/2/2023,Ava Hughes,ava.hughes@grainandglory.com
+210,Camden,Gregory,9173,camden.gregory@grainandglory.com,Store Associate,Storefront,173.0,7/28/2024,Olivia Scott,olivia.scott@grainandglory.com
+211,Bradley,Underwood,9211,bradley.underwood@grainandglory.com,Pastry Chef,Storefront,178.0,10/28/2023,William Ward,william.ward@grainandglory.com
+212,Laura,Boone,9212,laura.boone@grainandglory.com,Barista,Storefront,178.0,4/23/2023,William Ward,william.ward@grainandglory.com
+213,Dominic,Bass,9173,dominic.bass@grainandglory.com,Cashier,Storefront,173.0,4/18/2024,Olivia Scott,olivia.scott@grainandglory.com
+214,Ivy,Summers,9173,ivy.summers@grainandglory.com,Store Associate,Storefront,173.0,9/17/2023,Olivia Scott,olivia.scott@grainandglory.com
+215,Ethan,Beck,9215,ethan.beck@grainandglory.com,Baker,Storefront,180.0,2/3/2023,Mason Simmons,mason.simmons@grainandglory.com
+216,Marie,Warner,9216,marie.warner@grainandglory.com,Barista,Storefront,180.0,10/25/2024,Mason Simmons,mason.simmons@grainandglory.com
+217,Grayson,Shepard,9173,grayson.shepard@grainandglory.com,Store Associate,Storefront,173.0,8/13/2024,Olivia Scott,olivia.scott@grainandglory.com
+218,Madeline,Wu,9218,madeline.wu@grainandglory.com,Shift Supervisor,Storefront,181.0,10/29/2023,Ella Rodriguez,ella.rodriguez@grainandglory.com
+219,Tristan,Dixon,9219,tristan.dixon@grainandglory.com,Pastry Chef,Storefront,182.0,1/18/2023,Jacob Porter,jacob.porter@grainandglory.com
+220,Aaliyah,Rice,9173,aaliyah.rice@grainandglory.com,Store Associate,Storefront,173.0,3/1/2023,Olivia Scott,olivia.scott@grainandglory.com
+221,Kennedy,Clayton,9173,kennedy.clayton@grainandglory.com,Cashier,Storefront,173.0,7/19/2024,Olivia Scott,olivia.scott@grainandglory.com
+222,Adrian,Bishop,9222,adrian.bishop@grainandglory.com,Baker,Storefront,175.0,4/10/2023,Emma Davis,emma.davis@grainandglory.com
+223,Sadie,Blake,9223,sadie.blake@grainandglory.com,Barista,Storefront,176.0,7/11/2023,Noah Edwards,noah.edwards@grainandglory.com
+224,Marco,Collins,9173,marco.collins@grainandglory.com,Store Associate,Storefront,173.0,1/15/2023,Olivia Scott,olivia.scott@grainandglory.com
+225,Juliette,Drake,9225,juliette.drake@grainandglory.com,Pastry Chef,Storefront,177.0,6/14/2024,Ava Hughes,ava.hughes@grainandglory.com
+226,Dean,Garrett,9173,dean.garrett@grainandglory.com,Cashier,Storefront,173.0,10/24/2024,Olivia Scott,olivia.scott@grainandglory.com
+227,Ellie,Stark,9173,ellie.stark@grainandglory.com,Store Associate,Storefront,173.0,8/3/2024,Olivia Scott,olivia.scott@grainandglory.com
+228,Brett,Romero,9228,brett.romero@grainandglory.com,Baker,Storefront,178.0,1/3/2023,William Ward,william.ward@grainandglory.com
+229,Lydia,Yates,9229,lydia.yates@grainandglory.com,Barista,Storefront,179.0,11/22/2023,Amelia Fox,amelia.fox@grainandglory.com
+230,Julius,Bennett,9173,julius.bennett@grainandglory.com,Store Associate,Storefront,173.0,8/24/2024,Olivia Scott,olivia.scott@grainandglory.com
+231,Mckenna,Wright,9231,mckenna.wright@grainandglory.com,Pastry Chef,Storefront,180.0,10/5/2024,Mason Simmons,mason.simmons@grainandglory.com
+232,Gage,Lawrence,9232,gage.lawrence@grainandglory.com,Barista,Storefront,180.0,5/17/2024,Mason Simmons,mason.simmons@grainandglory.com
+233,Bella,Curtis,9173,bella.curtis@grainandglory.com,Store Associate,Storefront,173.0,4/21/2024,Olivia Scott,olivia.scott@grainandglory.com
+234,Mateo,Glover,9173,mateo.glover@grainandglory.com,Cashier,Storefront,173.0,7/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+235,Hazel,Cameron,9235,hazel.cameron@grainandglory.com,Shift Supervisor,Storefront,182.0,8/13/2023,Jacob Porter,jacob.porter@grainandglory.com
+236,Erik,Sims,9236,erik.sims@grainandglory.com,Baker,Storefront,182.0,9/26/2023,Jacob Porter,jacob.porter@grainandglory.com
+237,Alicia,Cannon,9237,alicia.cannon@grainandglory.com,Barista,Storefront,173.0,12/8/2023,Olivia Scott,olivia.scott@grainandglory.com
+238,Shane,Becker,9173,shane.becker@grainandglory.com,Store Associate,Storefront,173.0,7/15/2024,Olivia Scott,olivia.scott@grainandglory.com
+239,Hope,Valdez,9239,hope.valdez@grainandglory.com,Pastry Chef,Storefront,174.0,6/21/2023,Liam Bailey,liam.bailey@grainandglory.com
+240,Braxton,Hull,9173,braxton.hull@grainandglory.com,Store Associate,Storefront,173.0,6/5/2023,Olivia Scott,olivia.scott@grainandglory.com
+241,Piper,Huang,9241,piper.huang@grainandglory.com,Baker,Storefront,175.0,12/10/2024,Emma Davis,emma.davis@grainandglory.com
+242,Keegan,Morrow,9242,keegan.morrow@grainandglory.com,Barista,Storefront,175.0,2/16/2023,Emma Davis,emma.davis@grainandglory.com
+243,Alaina,Cruz,9173,alaina.cruz@grainandglory.com,Store Associate,Storefront,173.0,4/1/2024,Olivia Scott,olivia.scott@grainandglory.com
+244,Arthur,Mcguire,9244,arthur.mcguire@grainandglory.com,Pastry Chef,Storefront,176.0,4/9/2024,Noah Edwards,noah.edwards@grainandglory.com
+245,Jasmine,Cross,9173,jasmine.cross@grainandglory.com,Cashier,Storefront,173.0,11/28/2024,Olivia Scott,olivia.scott@grainandglory.com
+246,Leo,Rosales,9246,leo.rosales@grainandglory.com,Baker,Storefront,177.0,4/3/2023,Ava Hughes,ava.hughes@grainandglory.com
+247,Brianna,Acevedo,9247,brianna.acevedo@grainandglory.com,Barista,Storefront,178.0,11/26/2024,William Ward,william.ward@grainandglory.com
+248,Tyson,Browning,9173,tyson.browning@grainandglory.com,Store Associate,Storefront,173.0,1/30/2023,Olivia Scott,olivia.scott@grainandglory.com
+249,Lena,Hicks,9249,lena.hicks@grainandglory.com,Shift Supervisor,Storefront,179.0,7/15/2023,Amelia Fox,amelia.fox@grainandglory.com
+250,Malcolm,Reese,9250,malcolm.reese@grainandglory.com,Pastry Chef,Storefront,179.0,10/29/2023,Amelia Fox,amelia.fox@grainandglory.com
+251,Esther,Dawson,9173,esther.dawson@grainandglory.com,Cashier,Storefront,173.0,5/16/2023,Olivia Scott,olivia.scott@grainandglory.com
+252,Gavin,Sharpe,9173,gavin.sharpe@grainandglory.com,Store Associate,Storefront,173.0,6/18/2023,Olivia Scott,olivia.scott@grainandglory.com
+253,Iris,Lopez,9253,iris.lopez@grainandglory.com,Baker,Storefront,181.0,4/27/2023,Ella Rodriguez,ella.rodriguez@grainandglory.com
+254,Robbie,Silvers,9254,robbie.silvers@grainandglory.com,Barista,Storefront,181.0,6/6/2023,Ella Rodriguez,ella.rodriguez@grainandglory.com
+255,Tiana,Gaines,9173,tiana.gaines@grainandglory.com,Store Associate,Storefront,173.0,5/21/2023,Olivia Scott,olivia.scott@grainandglory.com
+256,Justin,Pena,9173,justin.pena@grainandglory.com,Cashier,Storefront,173.0,5/27/2023,Olivia Scott,olivia.scott@grainandglory.com
+257,Keira,Solis,9257,keira.solis@grainandglory.com,Baker,Storefront,173.0,3/3/2024,Olivia Scott,olivia.scott@grainandglory.com
+258,Spencer,Obrien,9258,spencer.obrien@grainandglory.com,Barista,Storefront,173.0,1/16/2024,Olivia Scott,olivia.scott@grainandglory.com
+259,Laurel,Meyer,9173,laurel.meyer@grainandglory.com,Store Associate,Storefront,173.0,10/16/2024,Olivia Scott,olivia.scott@grainandglory.com
+260,Diego,Aceves,9260,diego.aceves@grainandglory.com,Pastry Chef,Storefront,174.0,9/8/2024,Liam Bailey,liam.bailey@grainandglory.com
+261,Gabriella,Cain,9173,gabriella.cain@grainandglory.com,Store Associate,Storefront,173.0,9/20/2023,Olivia Scott,olivia.scott@grainandglory.com
+262,Kody,Hanson,9262,kody.hanson@grainandglory.com,Shift Supervisor,Storefront,175.0,8/31/2023,Emma Davis,emma.davis@grainandglory.com
+263,Skylar,Crane,9263,skylar.crane@grainandglory.com,Baker,Storefront,176.0,4/8/2024,Noah Edwards,noah.edwards@grainandglory.com
+264,Ivan,Steel,9264,ivan.steel@grainandglory.com,Barista,Storefront,176.0,1/11/2024,Noah Edwards,noah.edwards@grainandglory.com
+265,Charlotte,Lynn,9173,charlotte.lynn@grainandglory.com,Store Associate,Storefront,173.0,9/1/2023,Olivia Scott,olivia.scott@grainandglory.com
+266,Ezekiel,Mccann,9266,ezekiel.mccann@grainandglory.com,Pastry Chef,Storefront,177.0,7/7/2023,Ava Hughes,ava.hughes@grainandglory.com
+267,Molly,Berg,9267,molly.berg@grainandglory.com,Baker,Storefront,178.0,10/11/2023,William Ward,william.ward@grainandglory.com
+268,Remy,Rutledge,9173,remy.rutledge@grainandglory.com,Store Associate,Storefront,173.0,11/25/2023,Olivia Scott,olivia.scott@grainandglory.com
+269,Juliet,Fields,9173,juliet.fields@grainandglory.com,Cashier,Storefront,173.0,5/17/2023,Olivia Scott,olivia.scott@grainandglory.com
+270,Cyrus,Silver,9270,cyrus.silver@grainandglory.com,Barista,Storefront,179.0,7/25/2024,Amelia Fox,amelia.fox@grainandglory.com
+271,Harley,Morton,9173,harley.morton@grainandglory.com,Store Associate,Storefront,173.0,3/26/2024,Olivia Scott,olivia.scott@grainandglory.com
+272,Colette,Roach,9272,colette.roach@grainandglory.com,Baker,Storefront,180.0,2/2/2023,Mason Simmons,mason.simmons@grainandglory.com
+273,Devin,Lofton,9273,devin.lofton@grainandglory.com,Barista,Storefront,181.0,9/22/2023,Ella Rodriguez,ella.rodriguez@grainandglory.com
+274,Payton,Aldridge,9173,payton.aldridge@grainandglory.com,Store Associate,Storefront,173.0,9/15/2024,Olivia Scott,olivia.scott@grainandglory.com
+275,Miriam,Nichols,9275,miriam.nichols@grainandglory.com,Pastry Chef,Storefront,182.0,10/8/2023,Jacob Porter,jacob.porter@grainandglory.com
+276,Roger,Conway,9276,roger.conway@grainandglory.com,Baker,Storefront,182.0,12/21/2024,Jacob Porter,jacob.porter@grainandglory.com
+277,Melody,Kramer,9173,melody.kramer@grainandglory.com,Store Associate,Storefront,173.0,2/12/2024,Olivia Scott,olivia.scott@grainandglory.com
+278,Ellis,Meyers,9278,ellis.meyers@grainandglory.com,Barista,Storefront,173.0,8/30/2023,Olivia Scott,olivia.scott@grainandglory.com
+279,Carmen,Howard,9173,carmen.howard@grainandglory.com,Cashier,Storefront,173.0,1/14/2024,Olivia Scott,olivia.scott@grainandglory.com
+280,Duncan,York,9280,duncan.york@grainandglory.com,Baker,Storefront,174.0,8/7/2023,Liam Bailey,liam.bailey@grainandglory.com
+281,Arianna,Leach,9281,arianna.leach@grainandglory.com,Barista,Storefront,175.0,11/1/2024,Emma Davis,emma.davis@grainandglory.com
+282,Isaac,Caldwell,9173,isaac.caldwell@grainandglory.com,Store Associate,Storefront,173.0,1/22/2023,Olivia Scott,olivia.scott@grainandglory.com
+283,Francesca,Peterson,9283,francesca.peterson@grainandglory.com,Pastry Chef,Storefront,176.0,12/7/2023,Noah Edwards,noah.edwards@grainandglory.com
+284,Sean,Stokes,9173,sean.stokes@grainandglory.com,Store Associate,Storefront,173.0,11/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+285,Vivian,Kim,9285,vivian.kim@grainandglory.com,Shift Supervisor,Storefront,177.0,11/12/2024,Ava Hughes,ava.hughes@grainandglory.com
+286,Conrad,Collier,9286,conrad.collier@grainandglory.com,Barista,Storefront,177.0,6/23/2024,Ava Hughes,ava.hughes@grainandglory.com
+287,Lizeth,Mcfarland,9287,lizeth.mcfarland@grainandglory.com,Baker,Storefront,178.0,8/8/2023,William Ward,william.ward@grainandglory.com
+288,Brevin,Estrada,9173,brevin.estrada@grainandglory.com,Store Associate,Storefront,173.0,6/5/2023,Olivia Scott,olivia.scott@grainandglory.com
+289,Alexandra,Gardner,9289,alexandra.gardner@grainandglory.com,Pastry Chef,Storefront,179.0,3/17/2023,Amelia Fox,amelia.fox@grainandglory.com
+290,Isaiah,Mackenzie,9173,isaiah.mackenzie@grainandglory.com,Cashier,Storefront,173.0,11/6/2024,Olivia Scott,olivia.scott@grainandglory.com
+291,Helena,Dean,9291,helena.dean@grainandglory.com,Barista,Storefront,180.0,11/2/2023,Mason Simmons,mason.simmons@grainandglory.com
+292,Bruce,Oneal,9292,bruce.oneal@grainandglory.com,Baker,Storefront,180.0,6/26/2023,Mason Simmons,mason.simmons@grainandglory.com
+293,Kaylee,Cooper,9173,kaylee.cooper@grainandglory.com,Store Associate,Storefront,173.0,6/12/2024,Olivia Scott,olivia.scott@grainandglory.com
+294,Griffin,Carlson,9294,griffin.carlson@grainandglory.com,Shift Supervisor,Storefront,181.0,12/24/2024,Ella Rodriguez,ella.rodriguez@grainandglory.com
+295,Ashley,Petty,9295,ashley.petty@grainandglory.com,Pastry Chef,Storefront,182.0,6/29/2024,Jacob Porter,jacob.porter@grainandglory.com
+296,Kellan,Drummond,9296,kellan.drummond@grainandglory.com,Baker,Storefront,182.0,11/6/2023,Jacob Porter,jacob.porter@grainandglory.com
+297,Alina,Pineda,9173,alina.pineda@grainandglory.com,Cashier,Storefront,173.0,4/7/2023,Olivia Scott,olivia.scott@grainandglory.com
+298,Bodie,Morrison,9298,bodie.morrison@grainandglory.com,Barista,Storefront,173.0,5/7/2024,Olivia Scott,olivia.scott@grainandglory.com
+299,Marina,Bernard,9173,marina.bernard@grainandglory.com,Store Associate,Storefront,173.0,6/15/2023,Olivia Scott,olivia.scott@grainandglory.com
+300,Cole,Harmon,9300,cole.harmon@grainandglory.com,Baker,Storefront,174.0,7/29/2024,Liam Bailey,liam.bailey@grainandglory.com
+301,Fiona,Williams,9301,fiona.williams@grainandglory.com,Barista,Storefront,175.0,11/11/2023,Emma Davis,emma.davis@grainandglory.com
+302,Zayden,Richard,9173,zayden.richard@grainandglory.com,Store Associate,Storefront,173.0,3/31/2023,Olivia Scott,olivia.scott@grainandglory.com
+303,Kate,Thorpe,9303,kate.thorpe@grainandglory.com,Pastry Chef,Storefront,176.0,5/3/2023,Noah Edwards,noah.edwards@grainandglory.com
+304,Justice,Brewer,9173,justice.brewer@grainandglory.com,Store Associate,Storefront,173.0,5/21/2023,Olivia Scott,olivia.scott@grainandglory.com
+305,Azalea,Paul,9305,azalea.paul@grainandglory.com,Shift Supervisor,Storefront,177.0,12/4/2024,Ava Hughes,ava.hughes@grainandglory.com
+306,Marc,Giles,9306,marc.giles@grainandglory.com,Baker,Storefront,177.0,2/5/2024,Ava Hughes,ava.hughes@grainandglory.com
+307,Adeline,Roth,9173,adeline.roth@grainandglory.com,Cashier,Storefront,173.0,11/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+308,Zander,Casey,9308,zander.casey@grainandglory.com,Barista,Storefront,178.0,2/23/2023,William Ward,william.ward@grainandglory.com
+309,Bianca,Bowman,9173,bianca.bowman@grainandglory.com,Store Associate,Storefront,173.0,2/3/2023,Olivia Scott,olivia.scott@grainandglory.com
+310,Geoffrey,Adams,9310,geoffrey.adams@grainandglory.com,Pastry Chef,Storefront,179.0,3/8/2023,Amelia Fox,amelia.fox@grainandglory.com
+311,Annalise,Neal,9311,annalise.neal@grainandglory.com,Baker,Storefront,180.0,1/20/2023,Mason Simmons,mason.simmons@grainandglory.com
+312,Kaden,Salter,9173,kaden.salter@grainandglory.com,Store Associate,Storefront,173.0,7/19/2023,Olivia Scott,olivia.scott@grainandglory.com
+313,Alma,Esquivel,9313,alma.esquivel@grainandglory.com,Barista,Storefront,181.0,8/24/2024,Ella Rodriguez,ella.rodriguez@grainandglory.com
+314,Madden,Burch,9173,madden.burch@grainandglory.com,Cashier,Storefront,173.0,7/20/2023,Olivia Scott,olivia.scott@grainandglory.com
+315,Catalina,Ayers,9315,catalina.ayers@grainandglory.com,Shift Supervisor,Storefront,182.0,9/13/2023,Jacob Porter,jacob.porter@grainandglory.com
+316,Michael,Morrow,9173,michael.morrow@grainandglory.com,Store Associate,Storefront,173.0,4/18/2024,Olivia Scott,olivia.scott@grainandglory.com
+317,Amira,Norris,9317,amira.norris@grainandglory.com,Baker,Storefront,173.0,12/2/2024,Olivia Scott,olivia.scott@grainandglory.com
+318,Reid,Arias,9318,reid.arias@grainandglory.com,Barista,Storefront,173.0,4/22/2023,Olivia Scott,olivia.scott@grainandglory.com
+319,Eloise,Gaines,9173,eloise.gaines@grainandglory.com,Store Associate,Storefront,173.0,3/3/2023,Olivia Scott,olivia.scott@grainandglory.com
+320,Kendrick,Schmitt,9320,kendrick.schmitt@grainandglory.com,Pastry Chef,Storefront,174.0,8/18/2023,Liam Bailey,liam.bailey@grainandglory.com
+321,Paige,Bruce,9321,paige.bruce@grainandglory.com,Baker,Storefront,175.0,7/18/2024,Emma Davis,emma.davis@grainandglory.com
+322,Edgar,Lindsey,9322,edgar.lindsey@grainandglory.com,Barista,Storefront,175.0,4/27/2024,Emma Davis,emma.davis@grainandglory.com
+323,Lyric,Woodard,9173,lyric.woodard@grainandglory.com,Store Associate,Storefront,173.0,6/4/2024,Olivia Scott,olivia.scott@grainandglory.com
+324,Allen,Robb,9324,allen.robb@grainandglory.com,Shift Supervisor,Storefront,176.0,6/4/2023,Noah Edwards,noah.edwards@grainandglory.com
+325,Haven,Buchanan,9173,haven.buchanan@grainandglory.com,Cashier,Storefront,173.0,10/29/2023,Olivia Scott,olivia.scott@grainandglory.com
+326,Gage,Padgett,9326,gage.padgett@grainandglory.com,Baker,Storefront,177.0,4/4/2023,Ava Hughes,ava.hughes@grainandglory.com
+327,Skyler,Sloan,9327,skyler.sloan@grainandglory.com,Barista,Storefront,178.0,5/24/2023,William Ward,william.ward@grainandglory.com
+328,Daphne,Mullins,9173,daphne.mullins@grainandglory.com,Store Associate,Storefront,173.0,4/22/2023,Olivia Scott,olivia.scott@grainandglory.com
+329,Ryan,Garrett,9329,ryan.garrett@grainandglory.com,Baker,Storefront,179.0,4/26/2023,Amelia Fox,amelia.fox@grainandglory.com
+330,Frida,Moser,9330,frida.moser@grainandglory.com,Pastry Chef,Storefront,179.0,12/27/2024,Amelia Fox,amelia.fox@grainandglory.com
+331,Zion,Bray,9173,zion.bray@grainandglory.com,Store Associate,Storefront,173.0,5/14/2023,Olivia Scott,olivia.scott@grainandglory.com
+332,Chelsea,Whitney,9332,chelsea.whitney@grainandglory.com,Barista,Storefront,180.0,4/17/2023,Mason Simmons,mason.simmons@grainandglory.com
+333,Marcos,Nunez,9333,marcos.nunez@grainandglory.com,Shift Supervisor,Storefront,181.0,3/7/2024,Ella Rodriguez,ella.rodriguez@grainandglory.com
+334,Lila,Wheeler,9173,lila.wheeler@grainandglory.com,Cashier,Storefront,173.0,1/12/2023,Olivia Scott,olivia.scott@grainandglory.com
+335,Phoenix,Mcdaniel,9173,phoenix.mcdaniel@grainandglory.com,Store Associate,Storefront,173.0,12/18/2024,Olivia Scott,olivia.scott@grainandglory.com
+336,Iris,Garrison,9336,iris.garrison@grainandglory.com,Baker,Storefront,182.0,6/9/2023,Jacob Porter,jacob.porter@grainandglory.com
+337,Andres,Pugh,9337,andres.pugh@grainandglory.com,Barista,Storefront,173.0,12/13/2023,Olivia Scott,olivia.scott@grainandglory.com
+338,Faith,Torrez,9173,faith.torrez@grainandglory.com,Store Associate,Storefront,173.0,8/2/2023,Olivia Scott,olivia.scott@grainandglory.com
+339,Carl,Wood,9339,carl.wood@grainandglory.com,Pastry Chef,Storefront,174.0,1/25/2024,Liam Bailey,liam.bailey@grainandglory.com
+340,Lainey,Ayers,9340,lainey.ayers@grainandglory.com,Baker,Storefront,174.0,9/7/2024,Liam Bailey,liam.bailey@grainandglory.com
+341,Blair,Fitzpatrick,9173,blair.fitzpatrick@grainandglory.com,Store Associate,Storefront,173.0,2/19/2023,Olivia Scott,olivia.scott@grainandglory.com
+342,Marlon,Travis,9342,marlon.travis@grainandglory.com,Barista,Storefront,175.0,6/24/2024,Emma Davis,emma.davis@grainandglory.com
+343,Antonio,Riggs,9173,antonio.riggs@grainandglory.com,Cashier,Storefront,173.0,5/15/2023,Olivia Scott,olivia.scott@grainandglory.com
+344,Marley,Shepherd,9173,marley.shepherd@grainandglory.com,Store Associate,Storefront,173.0,3/13/2023,Olivia Scott,olivia.scott@grainandglory.com
+345,Grant,Terry,9345,grant.terry@grainandglory.com,Baker,Storefront,177.0,9/26/2023,Ava Hughes,ava.hughes@grainandglory.com
+346,Delilah,Chung,9346,delilah.chung@grainandglory.com,Barista,Storefront,177.0,1/27/2024,Ava Hughes,ava.hughes@grainandglory.com
+347,Stefan,Wheeler,9173,stefan.wheeler@grainandglory.com,Store Associate,Storefront,173.0,7/23/2023,Olivia Scott,olivia.scott@grainandglory.com
+348,Selena,Vance,9348,selena.vance@grainandglory.com,Pastry Chef,Storefront,178.0,8/26/2023,William Ward,william.ward@grainandglory.com
+349,Roman,Nash,9349,roman.nash@grainandglory.com,Baker,Storefront,179.0,8/21/2023,Amelia Fox,amelia.fox@grainandglory.com
+350,Ann,Espinoza,9173,ann.espinoza@grainandglory.com,Store Associate,Storefront,173.0,6/14/2024,Olivia Scott,olivia.scott@grainandglory.com
+351,Erika,Rasmussen,9173,erika.rasmussen@grainandglory.com,Cashier,Storefront,173.0,5/22/2024,Olivia Scott,olivia.scott@grainandglory.com
+352,Titus,Henderson,9352,titus.henderson@grainandglory.com,Barista,Storefront,180.0,1/14/2023,Mason Simmons,mason.simmons@grainandglory.com
+353,Kara,Mayo,9173,kara.mayo@grainandglory.com,Store Associate,Storefront,173.0,2/20/2023,Olivia Scott,olivia.scott@grainandglory.com
+354,Maddox,Turner,9354,maddox.turner@grainandglory.com,Baker,Storefront,181.0,10/4/2024,Ella Rodriguez,ella.rodriguez@grainandglory.com
+355,Leslie,Swanson,9355,leslie.swanson@grainandglory.com,Barista,Storefront,182.0,4/9/2023,Jacob Porter,jacob.porter@grainandglory.com
+356,Reed,Griffith,9356,reed.griffith@grainandglory.com,Pastry Chef,Storefront,182.0,12/12/2024,Jacob Porter,jacob.porter@grainandglory.com
+357,Miranda,Ray,9173,miranda.ray@grainandglory.com,Store Associate,Storefront,173.0,12/9/2023,Olivia Scott,olivia.scott@grainandglory.com
+358,Clark,Lofton,9358,clark.lofton@grainandglory.com,Baker,Storefront,173.0,4/5/2023,Olivia Scott,olivia.scott@grainandglory.com
+359,Angelica,Singer,9359,angelica.singer@grainandglory.com,Barista,Storefront,174.0,4/11/2023,Liam Bailey,liam.bailey@grainandglory.com
+360,Nicholas,Stuart,9173,nicholas.stuart@grainandglory.com,Store Associate,Storefront,173.0,3/1/2023,Olivia Scott,olivia.scott@grainandglory.com
+361,Eva,Ramos,9361,eva.ramos@grainandglory.com,Shift Supervisor,Storefront,175.0,6/13/2024,Emma Davis,emma.davis@grainandglory.com
+362,Liam,Booth,9362,liam.booth@grainandglory.com,Baker,Storefront,175.0,7/18/2024,Emma Davis,emma.davis@grainandglory.com
+363,Whitney,Finnegan,9363,whitney.finnegan@grainandglory.com,Barista,Storefront,176.0,3/28/2024,Noah Edwards,noah.edwards@grainandglory.com
+364,Lucian,Potts,9173,lucian.potts@grainandglory.com,Store Associate,Storefront,173.0,5/24/2023,Olivia Scott,olivia.scott@grainandglory.com
+365,Kaya,Glenn,9173,kaya.glenn@grainandglory.com,Cashier,Storefront,173.0,7/8/2023,Olivia Scott,olivia.scott@grainandglory.com
+366,Ronan,Sandler,9366,ronan.sandler@grainandglory.com,Pastry Chef,Storefront,177.0,12/11/2023,Ava Hughes,ava.hughes@grainandglory.com
+367,Ellen,Holder,9367,ellen.holder@grainandglory.com,Baker,Storefront,178.0,11/26/2024,William Ward,william.ward@grainandglory.com
+368,Haley,Nixon,9173,haley.nixon@grainandglory.com,Store Associate,Storefront,173.0,4/11/2024,Olivia Scott,olivia.scott@grainandglory.com
+369,Byron,Schultz,9369,byron.schultz@grainandglory.com,Barista,Storefront,179.0,7/4/2023,Amelia Fox,amelia.fox@grainandglory.com
+370,Aisha,Gaines,9173,aisha.gaines@grainandglory.com,Store Associate,Storefront,173.0,7/9/2024,Olivia Scott,olivia.scott@grainandglory.com
+371,Frank,Kinney,9371,frank.kinney@grainandglory.com,Baker,Storefront,180.0,2/7/2024,Mason Simmons,mason.simmons@grainandglory.com
+372,Lauren,Abel,9372,lauren.abel@grainandglory.com,Barista,Storefront,180.0,4/17/2023,Mason Simmons,mason.simmons@grainandglory.com
+373,Hector,Starr,9173,hector.starr@grainandglory.com,Store Associate,Storefront,173.0,5/4/2024,Olivia Scott,olivia.scott@grainandglory.com
+374,Scarlet,Decker,9374,scarlet.decker@grainandglory.com,Baker,Storefront,181.0,10/17/2023,Ella Rodriguez,ella.rodriguez@grainandglory.com
+375,Angie,Eaton,9375,angie.eaton@grainandglory.com,Shift Supervisor,Storefront,182.0,1/28/2023,Jacob Porter,jacob.porter@grainandglory.com
+376,Kyle,Newman,9173,kyle.newman@grainandglory.com,Cashier,Storefront,173.0,6/17/2023,Olivia Scott,olivia.scott@grainandglory.com
+377,India,Caldwell,9173,india.caldwell@grainandglory.com,Store Associate,Storefront,173.0,2/8/2023,Olivia Scott,olivia.scott@grainandglory.com
+378,Luis,Avery,9378,luis.avery@grainandglory.com,Baker,Storefront,173.0,4/8/2024,Olivia Scott,olivia.scott@grainandglory.com
+379,Marisol,Burns,9379,marisol.burns@grainandglory.com,Barista,Storefront,174.0,5/18/2024,Liam Bailey,liam.bailey@grainandglory.com
+380,Corbin,Melton,9173,corbin.melton@grainandglory.com,Store Associate,Storefront,173.0,4/22/2023,Olivia Scott,olivia.scott@grainandglory.com
+381,Tiffany,Johnston,9381,tiffany.johnston@grainandglory.com,Pastry Chef,Storefront,175.0,5/23/2023,Emma Davis,emma.davis@grainandglory.com
+382,Dan,Bennett,9382,dan.bennett@grainandglory.com,Baker,Storefront,175.0,8/14/2024,Emma Davis,emma.davis@grainandglory.com
+383,Annie,Forbes,9173,annie.forbes@grainandglory.com,Store Associate,Storefront,173.0,1/20/2024,Olivia Scott,olivia.scott@grainandglory.com
+384,Clint,Pence,9384,clint.pence@grainandglory.com,Barista,Storefront,176.0,3/13/2024,Noah Edwards,noah.edwards@grainandglory.com
+385,Nina,Mckinney,9173,nina.mckinney@grainandglory.com,Cashier,Storefront,173.0,8/1/2023,Olivia Scott,olivia.scott@grainandglory.com
+386,Josiah,Bryan,9173,josiah.bryan@grainandglory.com,Store Associate,Storefront,173.0,12/9/2023,Olivia Scott,olivia.scott@grainandglory.com
+387,Selina,Avila,9387,selina.avila@grainandglory.com,Baker,Storefront,178.0,6/26/2024,William Ward,william.ward@grainandglory.com
+388,Gordon,Mccullough,9388,gordon.mccullough@grainandglory.com,Barista,Storefront,178.0,10/17/2024,William Ward,william.ward@grainandglory.com
+389,Aubree,Morton,9173,aubree.morton@grainandglory.com,Store Associate,Storefront,173.0,12/31/2023,Olivia Scott,olivia.scott@grainandglory.com
+390,Tyler,Merritt,9390,tyler.merritt@grainandglory.com,Shift Supervisor,Storefront,179.0,2/17/2023,Amelia Fox,amelia.fox@grainandglory.com
+391,Ariane,Patterson,9391,ariane.patterson@grainandglory.com,Pastry Chef,Storefront,180.0,11/17/2023,Mason Simmons,mason.simmons@grainandglory.com
+392,Giovanni,Blevins,9392,giovanni.blevins@grainandglory.com,Baker,Storefront,180.0,8/10/2024,Mason Simmons,mason.simmons@grainandglory.com
+393,Tara,Pitts,9173,tara.pitts@grainandglory.com,Store Associate,Storefront,173.0,11/10/2023,Olivia Scott,olivia.scott@grainandglory.com
+394,Bryan,Hardy,9394,bryan.hardy@grainandglory.com,Barista,Storefront,181.0,8/31/2023,Ella Rodriguez,ella.rodriguez@grainandglory.com
+395,Lilah,Small,9395,lilah.small@grainandglory.com,Baker,Storefront,182.0,12/13/2024,Jacob Porter,jacob.porter@grainandglory.com
+396,Derek,Johns,9173,derek.johns@grainandglory.com,Store Associate,Storefront,173.0,8/9/2023,Olivia Scott,olivia.scott@grainandglory.com
+397,Lina,Velasquez,9173,lina.velasquez@grainandglory.com,Cashier,Storefront,173.0,5/8/2023,Olivia Scott,olivia.scott@grainandglory.com
+398,Arjun,Craven,9398,arjun.craven@grainandglory.com,Barista,Storefront,173.0,5/14/2023,Olivia Scott,olivia.scott@grainandglory.com
+399,Hunter,Rogers,9399,hunter.rogers@grainandglory.com,Pastry Chef,Storefront,174.0,11/24/2023,Liam Bailey,liam.bailey@grainandglory.com
+400,Daisy,Owen,9173,daisy.owen@grainandglory.com,Store Associate,Storefront,173.0,2/26/2024,Olivia Scott,olivia.scott@grainandglory.com

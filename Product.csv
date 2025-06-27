@@ -1,0 +1,111 @@
+Product ID,Product Name,Category,Flavor,Retail Price,Ingredient Cost,Labor Cost Per Unit
+1,French Baguette,Bread,Plain,6,1,0.8
+2,Sourdough Loaf,Bread,Plain,8,1.2,1
+3,Focaccia,Bread,Rosemary,7,1.5,1
+4,Brioche,Bread,Butter,7,1.4,0.9
+5,Whole Wheat Loaf,Bread,Whole Wheat,6.5,1.2,0.8
+6,Multigrain Loaf,Bread,Multigrain,7,1.35,0.9
+7,Ciabatta,Bread,Olive Oil,7,1.25,1
+8,Milk Bread,Bread,Milk,6,1,0.7
+9,Pain de Mie,Bread,Plain,7,1.3,0.9
+10,German Pretzel,Bread,Salted,4,0.8,0.5
+11,Chocolate Chip Cookie,Cookies,Chocolate,3,0.5,0.3
+12,Oatmeal Raisin Cookie,Cookies,Oatmeal Raisin,3,0.45,0.25
+13,Peanut Butter Cookie,Cookies,Peanut Butter,3.25,0.5,0.3
+14,Snickerdoodle,Cookies,Cinnamon,2.75,0.45,0.25
+15,Mexican Wedding Cookie,Cookies,Vanilla,3,0.55,0.3
+16,Matcha Shortbread,Cookies,Matcha,3.25,0.6,0.35
+17,Alfajores,Cookies,Dulce de Leche,3.75,0.7,0.4
+18,Butter Cookie,Cookies,Butter,2.75,0.5,0.3
+19,Linzer Cookie,Cookies,Raspberry,4,0.75,0.45
+20,Koulourakia,Cookies,Orange,3.25,0.65,0.4
+21,Glazed Donut,Donuts,Vanilla,2.5,0.3,0.2
+22,Chocolate Frosted Donut,Donuts,Chocolate,3,0.4,0.25
+23,Boston Cream Donut,Donuts,Custard,3.5,0.5,0.35
+24,Jelly Donut,Donuts,Raspberry,3,0.45,0.25
+25,Old-Fashioned Donut,Donuts,Plain,2.75,0.4,0.2
+26,Mochi Donut,Donuts,Matcha,4,0.7,0.5
+27,Churro Donut,Donuts,Cinnamon,3.25,0.6,0.35
+28,Maple Bacon Donut,Donuts,Maple,4.25,0.9,0.5
+29,Blueberry Donut,Donuts,Blueberry,3,0.5,0.3
+30,Doughnut Holes,Donuts,Assorted,3.5,0.7,0.4
+31,Lemon Tart,Tarts,Lemon,5.5,1,0.8
+32,Fruit Tart,Tarts,Mixed Fruit,6,1.5,1
+33,Chocolate Ganache Tart,Tarts,Chocolate,7,1.7,1.2
+34,Pear Almond Tart,Tarts,Almond,6.5,1.6,1
+35,Apple Frangipane Tart,Tarts,Apple,6,1.4,0.9
+36,Portuguese Custard Tart,Tarts,Egg Custard,4,0.8,0.5
+37,Tomato Basil Tart,Tarts,Savory,5.5,1.2,0.8
+38,Pecan Tart,Tarts,Pecan,5,1.1,0.7
+39,Banana Cream Tart,Tarts,Banana,5.5,1.2,0.8
+40,Matcha Azuki Tart,Tarts,Matcha,6.5,1.5,1
+41,Opera Petit Four,Petit Fours,Coffee,3.5,0.6,0.4
+42,Lemon Petit Four,Petit Fours,Lemon,3,0.55,0.35
+43,Raspberry Petit Four,Petit Fours,Raspberry,3.25,0.6,0.4
+44,Pistachio Petit Four,Petit Fours,Pistachio,3.5,0.7,0.4
+45,Hazelnut Petit Four,Petit Fours,Hazelnut,3.75,0.75,0.45
+46,Matcha Yuzu Petit Four,Petit Fours,Matcha,4,0.8,0.5
+47,Coconut Petit Four,Petit Fours,Coconut,3.25,0.65,0.4
+48,Vanilla Petit Four,Petit Fours,Vanilla,3,0.55,0.35
+49,Chocolate Petit Four,Petit Fours,Chocolate,3.5,0.7,0.45
+50,Rosewater Petit Four,Petit Fours,Rose,3.75,0.75,0.45
+51,Chocolate Cupcake,Cake,Chocolate,40,6,4
+52,Chocolate Cupcake,Cake,Chocolate,35,5.5,3.5
+53,Red Velvet Cupcake,Cake,Red Velvet,40,6.5,4.5
+54,Black Forest Cake,Cake,Chocolate Cherry,45,7,5
+55,Matcha Crepe Cake,Cake,Matcha,50,9,6
+56,Tiramisu Cake,Cake,Coffee,45,7.5,5.5
+57,Carrot Cake,Cake,Carrot,35,5,3.5
+58,Lemon Drizzle Cake,Cake,Lemon,30,4.5,3
+59,Funfetti Cake,Cake,Vanilla,38,6,4
+60,Opera Cake,Cake,Coffee,55,10,6
+61,Apple Pie,Pie,Apple,20,3.5,2.5
+62,Blueberry Pie,Pie,Blueberry,22,4,3
+63,Cherry Pie,Pie,Cherry,25,4.5,3
+64,Pumpkin Pie,Pie,Pumpkin,20,3.5,2.5
+65,Key Lime Pie,Pie,Lime,25,4.5,3
+66,Pecan Pie,Pie,Pecan,28,5,3.5
+67,Banoffee Pie,Pie,Banana,28,5.5,3.5
+68,Vanilla Cake,Cake,Vanilla,24,4.5,3
+69,Chocolate Cream Pie,Pie,Chocolate,25,4.8,3.2
+70,Sweet Potato Pie,Pie,Sweet Potato,22,4,2.5
+71,Croissant,Pastry,Butter,4,0.9,0.6
+72,Pain au Chocolat,Pastry,Chocolate,4.5,1,0.65
+73,Almond Croissant,Pastry,Almond,5,1.1,0.7
+74,Danish Pastry,Pastry,Raspberry,5,1.2,0.8
+75,Kouign-Amann,Pastry,Butter,5.5,1.2,1
+76,Cinnamon Roll,Pastry,Cinnamon,4.25,0.9,0.6
+77,Baklava,Pastry,Honey,5,1.2,0.8
+78,Cannoli,Pastry,Ricotta,4.5,1,0.7
+79,Empanada,Pastry,Beef,3.5,0.7,0.5
+80,Jalebi,Pastry,Sweet Syrup,4,0.8,0.6
+81,Classic Brownie,Brownies,Chocolate,4,0.8,0.5
+82,Walnut Brownie,Brownies,Chocolate Walnut,4.25,0.9,0.6
+83,Fudge Brownie,Brownies,Chocolate,4.5,1,0.7
+84,Peanut Butter Brownie,Brownies,Peanut Butter,4.75,1,0.8
+85,Cheesecake Brownie,Brownies,Cheesecake,5,1.2,0.8
+86,Salted Caramel Brownie,Brownies,Caramel,4.75,1.1,0.8
+87,Mint Chocolate Brownie,Brownies,Mint,4.5,1,0.7
+88,Matcha Brownie,Brownies,Matcha,4.75,1,0.8
+89,Hazelnut Brownie,Brownies,Hazelnut,4.75,1.1,0.8
+90,Espresso Brownie,Brownies,Coffee,5,1.2,0.8
+91,Macaron,Specialty,Pistachio,3,0.7,0.4
+92,Eclair,Specialty,Chocolate,5,1.2,0.8
+93,Cannelé,Specialty,Vanilla,4,0.8,0.6
+94,Mochi,Specialty,Strawberry,2.5,0.5,0.3
+95,Portuguese Egg Tart,Specialty,Egg Custard,4,0.9,0.6
+96,Babka,Specialty,Chocolate,12,2,1.5
+97,Panettone,Specialty,Fruit,25,4,2.5
+98,Strudel,Specialty,Apple,8,1.5,1
+99,Gulab Jamun,Specialty,Cardamom,3,0.7,0.5
+100,Mooncake,Specialty,Lotus,12,2.5,1.5
+101,Espresso,Coffee Drink,Strong,3,0.5,0.3
+102,Cappuccino,Coffee Drink,Milk,4.5,0.7,0.4
+103,Latte,Coffee Drink,Vanilla,5,0.8,0.45
+104,Mocha,Coffee Drink,Chocolate,5.5,0.9,0.5
+105,Americano,Coffee Drink,Black,3,0.4,0.25
+106,Cold Brew,Coffee Drink,Plain,4,0.6,0.35
+107,Macchiato,Coffee Drink,Caramel,5.25,0.9,0.5
+108,Flat White,Coffee Drink,Whole Milk,4.75,0.7,0.4
+109,Irish Coffee,Coffee Drink,Whiskey,6.5,1.2,0.8
+110,Hazelnut Latte,Coffee Drink,Hazelnut,5.5,0.9,0.5

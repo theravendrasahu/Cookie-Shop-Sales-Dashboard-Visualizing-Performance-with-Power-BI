@@ -1,0 +1,96 @@
+let
+    #"CREATE blank table" = Table.FromRecords( { [] } ),
+    #"SET start date" = Table.AddColumn(#"CREATE blank table", "Start", each #date( 2023, 1, 1 )),
+    #"SET years past current" = Table.AddColumn(#"SET start date", "Years Past Current", each 1),
+    #"SET first day of week" = Table.AddColumn(#"SET years past current", "First Day of Week Num", each Day.Sunday),
+    #"SET first month of fiscal year" = Table.AddColumn(#"SET first day of week", "First Month of Fiscal Year", each 7),
+    #"DEFINE first month of fiscal" = Table.AddColumn(#"SET first month of fiscal year", "Last Month of Fiscal", each Number.Mod( [First Month of Fiscal Year] + 10, 12 ) + 1 ),
+    #"DEFINE end" = Table.AddColumn(#"DEFINE first month of fiscal", "End", each Date.AddYears(
+    Date.EndOfYear(
+        Date.From(
+            DateTime.FixedLocalNow()
+        )
+    ),
+    [Years Past Current]
+), type date ),
+    #"DEFINE date" = Table.AddColumn(#"DEFINE end", "Date", each
+List.Dates(
+    [Start],
+    Number.From( [End] - [Start] ) + 1,
+    Duration.From(1)
+)
+),
+    #"KEEP columns" = Table.SelectColumns(#"DEFINE date",{"First Day of Week Num", "Last Month of Fiscal", "First Month of Fiscal Year", "Date"}),
+    #"EXPAND date" = Table.ExpandListColumn(#"KEEP columns", "Date"),
+    #"SET TYPE date" = Table.TransformColumnTypes(#"EXPAND date",{{"Date", type date}, {"Last Month of Fiscal", Int64.Type}, {"First Month of Fiscal Year", Int64.Type}}),
+    #"CREATE fiscal date" = Table.AddColumn(#"SET TYPE date", "FisRefDate", each Date.AddMonths( [Date], 12 - [Last Month of Fiscal] )),
+    #"CREATE relative date" = Table.AddColumn(#"CREATE fiscal date", "Relative Date", each Duration.Days( 
+    [Date] - 
+    Date.From( DateTime.FixedLocalNow() ) 
+), type number),
+    #"CREATE year" = Table.AddColumn(#"CREATE relative date", "Year", each Date.Year([Date]), Int64.Type),
+    #"CREATE year start " = Table.AddColumn(#"CREATE year", "Year Start Date", each Date.StartOfYear([Date]), type date),
+    #"CREATE relative year" = Table.AddColumn(#"CREATE year start ", "Relative Year", each Date.Year([Date]) - 
+Date.Year(DateTime.From(DateTime.FixedLocalNow())), Int64.Type),
+    #"CREATE fy" = Table.AddColumn(#"CREATE relative year", "Fiscal Year", each Date.Year([FisRefDate]), Int64.Type),
+    #"CREATE fy start date" = Table.AddColumn(#"CREATE fy", "Fiscal Year Start Date", each Date.AddMonths( Date.StartOfYear([FisRefDate]) , -1 * (12 - [Last Month of Fiscal] ) ), type date),
+    #"CREATE relative fy" = Table.AddColumn(#"CREATE fy start date", "Relative Fiscal Year", each [
+varLocalDateTime = Date.From(DateTime.FixedLocalNow()),
+vrLastMonFY = [Last Month of Fiscal], 
+
+vrSysEquivDate = 
+    Date.AddMonths( 
+        varLocalDateTime, 
+        12 - vrLastMonFY 
+    ),
+vrSysFY = Date.Year( vrSysEquivDate ),
+vrRowFY = Date.Year([FisRefDate]),
+vrRelativeFY = vrRowFY - vrSysFY
+][vrRelativeFY], Int64.Type),
+    // This is for on-page slicers that a user may change but need to "stick" to a relative year
+    #"CREATE rel fy text" = Table.AddColumn(#"CREATE relative fy", "Relative Fiscal Year Text", each if [Relative Fiscal Year] > 0 then Number.ToText([Relative Fiscal Year]) & " Fiscal Years Ahead" else 
+if [Relative Fiscal Year] = 0 then "Current Fiscal Year" else 
+if [Relative Fiscal Year] = -1 then "Last Fiscal Year" else 
+if [Relative Fiscal Year] < -1 then Number.ToText([Relative Fiscal Year]*-1) & " Fiscal Years Back" else null),
+    #"CREATE fiscal quarter number" = Table.AddColumn(#"CREATE rel fy text", "Fiscal Quarter Num", each Date.QuarterOfYear( [FisRefDate] ), type number),
+    #"CREATE fiscal quarter" = Table.AddColumn(#"CREATE fiscal quarter number", "Fiscal Quarter", each "Q" & Text.From( Date.QuarterOfYear( [FisRefDate]) ), type text),
+    #"CREATE fiscal quarter year" = Table.AddColumn(#"CREATE fiscal quarter", "Fiscal Quarter Year", each [Fiscal Quarter] & " FY" & Number.ToText([Fiscal Year]), type text),
+    #"CREATE relative quarter" = Table.AddColumn(#"CREATE fiscal quarter year", "Relative Quarter", each
+(
+    Date.Year(Date.From([Date])) * 4 + 
+    Date.QuarterOfYear(Date.From([Date])) 
+) -
+(
+    Date.Year(Date.From(DateTime.FixedLocalNow())) * 4 + 
+    Date.QuarterOfYear(Date.From(DateTime.FixedLocalNow())) 
+),
+type number),
+    #"CREATE month short name" = Table.AddColumn(#"CREATE relative quarter", "Month Abbr", each Date.ToText( [Date], "MMM" ), type text),
+    #"CREATE month long name" = Table.AddColumn(#"CREATE month short name", "Month Long Name", each Date.ToText( [Date], "MMMM" )),
+    #"CREATE month start date" = Table.AddColumn(#"CREATE month long name", "Month Start Date", each Date.StartOfMonth([Date]), type date),
+    #"CREATE relative month" = Table.AddColumn(#"CREATE month start date", "Relative Month", each 
+( Date.Year([Date]) * 12 + Date.Month([Date]) )- 
+( Date.Year( Date.From( DateTime.FixedLocalNow() ) ) * 12 + Date.Month(Date.From( DateTime.FixedLocalNow() )) )
+, type number),
+    // to sort month name
+    #"CREATE month number" = Table.AddColumn(#"CREATE relative month", "Month Num", each Date.Month([Date]), Int64.Type),
+    #"CREATE week start date" = Table.AddColumn(#"CREATE month number", "Week Start Date", each Date.StartOfWeek([Date], [First Day of Week Num]), type date),
+    #"CREATE relative week" = Table.AddColumn(#"CREATE week start date", "Relative Week", each [
+varDate = [Date],
+varLocalDateTime = Date.From( DateTime.FixedLocalNow() ),
+vrWeeksStart = [First Day of Week Num],
+
+varWeekStart = Date.StartOfWeek( varDate, vrWeeksStart ),
+varLocalWeekStart = Date.StartOfWeek( varLocalDateTime, vrWeeksStart ),
+varRelativeWeek = 
+    Duration.Days( varWeekStart - varLocalWeekStart ) / 7
+][varRelativeWeek], type number),
+    // To sort week days
+    #"CREATE day of week" = Table.AddColumn(#"CREATE relative week", "Day of Week Num", each Date.DayOfWeek( [Date], [First Day of Week Num] ) + 1, Int64.Type),
+    #"CREATE short day of week" = Table.AddColumn(#"CREATE day of week", "Day of Week", each Date.ToText([Date], "ddd"), type text),
+    #"DELETE extra columns" = Table.RemoveColumns(#"CREATE short day of week",{"First Day of Week Num", "Last Month of Fiscal", "First Month of Fiscal Year", "FisRefDate"}),
+    #"SET type" = Table.TransformColumnTypes(#"DELETE extra columns",{{"Relative Week", Int64.Type}, {"Relative Month", Int64.Type}, {"Relative Quarter", Int64.Type}, {"Fiscal Quarter Num", Int64.Type}, {"Relative Date", Int64.Type}, {"Month Long Name", type text}, {"Relative Fiscal Year Text", type text}})
+in
+    #"SET type"
+
+    //this code is a modified version of Brian Grant's open source date table here: https://skypoint.ai/blog/calendarfornia-dreamin-m-calendar-script/
